@@ -1,0 +1,24 @@
+
+
+git push git@github.com:Iamyoudaye/GitTest.git
+
+//上面命令不会下载文件夹
+
+git clone git@github.com:Iamyoudaye/GitTest.git
+
+//上面命令会连带着根文件夹一起下载
+
+
+//上传代码文件
+git status
+
+git add .
+
+git add hello
+
+git commit -m "hello_v1.0Version"
+
+git push git@github.com:Iamyoudaye/GitTest.git
+
+git push -u git@github.com:Iamyoudaye/GitTest.git master
+
